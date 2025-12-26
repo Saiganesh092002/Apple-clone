@@ -1,0 +1,100 @@
+@import url(./section.css);
+@import url(./section-2.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#nav{
+    /* border: 3px solid; */
+    height: 44px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: rgba(0, 0, .8);
+    background-color: rgba(250, 250, 252, .8);
+    backdrop-filter: saturate(180%) blur(20px);
+    z-index: 1;
+
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 65%;
+    margin: auto;
+
+}
+#sub-nav ol{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#sub-nav ol li{
+    font-size: 12px;
+    font-weight: 400;
+}
+#sub-nav ol li:hover{
+    cursor: pointer;
+}
+            
+    /* nvv-end */
+
+#sub-section{
+    /* border: 2px solid red; */
+    height: 86vh;
+    margin-top: 44px;
+    width: 100%;
+}
+#sub-section video{
+    /* border: 2px solid burlywood; */
+    /* scale: 200%; */
+    width: 100%;
+    height: 86%;
+    object-fit:cover;
+    position: absolute;
+    /* bottom: 20px; */
+    z-index: -111;
+}
+#sub-section div{
+    border: 2px rgb(29, 196, 113);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: inherit;
+    align-items: center;
+    padding-top: 380px;
+    padding: auto;
+    position: relative;
+    bottom: 40px;
+}
+#sub-section div h2{
+    font-size: 48px;
+    font-weight: 800px;
+}
+#sub-section div p{
+    font-size: 27px;
+    font-weight: 400px;
+    padding-top: 20px;
+    text-align: center;
+}
+#sub-section button{
+    margin-top: 20px;
+    padding: 11px 21px;
+    border-radius: 50px;
+    border: 1px solid #06c;
+    background: none;
+    color: #06c;
+    font-size: 17px;
+    font-weight: 400;
+}
+#sub-section button:hover{
+    background-color: #06c;
+    color: #fff;
+    cursor: pointer;
+
+}

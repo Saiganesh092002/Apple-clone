@@ -1,0 +1,576 @@
+#i-pods{
+    margin-top: 10px;
+    /* border: 5px solid; */
+    height: 80vh;
+    display: flex;
+    gap: 8px;
+}
+#airpods ,#airphone{
+    /* border: 3px solid red; */
+    height: inherit;
+    flex:1;
+}
+
+#airpods{
+    background-image: url("../image/airpods" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* border: 2px solid rgb(0, 255, 51); */
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+#airphone{
+    background-image: url("../image/airphone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* border: 2px solid red; */
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 2px;
+
+}
+#airpods h2{
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    color: #1d1d1f;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    position: relative;
+}
+#airpods p{
+    max-width: 305px;
+    margin-top: 5px;
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 400;
+    /* letter-spacing: .009em; */
+    color: #1d1d1f;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+#airpods a{
+    border: 2px solid brown;
+    margin-left: 13px;
+    /* color: #2997ff; */
+    color: #fff;
+    border-color: #2997ff;
+    background-color: #0071e3;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 28px;
+    padding: 11px 21px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 980px;
+    text-decoration: none;
+
+}
+#airpods a+a{
+    /* border: 2px solid brown; */
+    margin-left: 13px;
+    color: #0071e3;
+    /* color: #fff; */
+    border-color: #0071e3;
+    background: rgba(0, 0, 0, 0);
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 28px;
+    padding: 11px 21px;
+    margin:18px 18px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 980px;
+    text-decoration: none;
+
+}
+
+#airpods a+a:hover{
+    /* border: 2px solid salmon; */
+    background-color: #0071e3;
+    color: #f5f5f7;
+}
+#airphone h2{
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    color: #1d1d1f;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    /* position: relative; */
+}
+#airphone p{
+    max-width: 305px;
+    margin-top: 5px;
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 400;
+    /* letter-spacing: .009em; */
+    color: #1d1d1f;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+#airphone a{
+    border: 2px solid brown;
+    margin-left: 13px;
+    /* color: #2997ff; */
+    color: #fff;
+    border-color: #2997ff;
+    background-color: #0071e3;;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 28px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 980px;
+    text-decoration: none;
+
+}
+#airphone a+a{
+    /* border: 2px solid brown; */
+    margin-left: 13px;
+    color: #0071e3;
+    /* color: #fff; */
+    border-color: #0071e3;
+    background: rgba(0, 0, 0, 0);
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 28px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 980px;
+    text-decoration: none;
+
+}
+
+#airphone a+a:hover{
+    /* border: 2px solid salmon; */
+    background-color: #0071e3;
+    color: #f5f5f7;
+}
+
+
+/* macbook nd tradein */
+
+
+#macbookair{
+    
+   margin-top: 10px;
+    /* border: 5px solid; */
+    height: 80vh;
+    display: flex;
+    gap: 8px;
+}
+#macbook ,#tradein{
+    /* border: 3px solid red; */
+    height: inherit;
+    flex:1;
+}
+
+#macbook{
+    background-image: url("../image/macbook.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* border: 2px solid rgb(0, 255, 51); */
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+#tradein{
+    background-image: url("../image/tradein-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* border: 2px solid red; */
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 2px;
+
+}
+#macbook h2{
+    font-size: 50px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    color: #1d1d1f;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    position: relative;
+}
+#macbook p{
+    max-width: 330px;
+    margin-top: 5px;
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 400;
+    /* letter-spacing: .009em; */
+    color: #1d1d1f;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+#macbook a{
+    /* border: 2px solid brown; */
+    margin-left: 13px;
+    /* color: #2997ff; */
+    color: #fff;
+    border-color: #2997ff;
+    background-color: #0071e3;;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 28px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 980px;
+    text-decoration: none;
+
+}
+#macbook a+a{
+    /* border: 2px solid brown; */
+    margin-left: 13px;
+    color: #0071e3;
+    /* color: #fff; */
+    border-color: #0071e3;
+    background: rgba(0, 0, 0, 0);
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 28px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 980px;
+    text-decoration: none;
+
+}
+
+#macbook a+a:hover{
+    /* border: 2px solid salmon; */
+    background-color: #0071e3;
+    color: #f5f5f7;
+}
+#tradein h2{
+    font-size: 100px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    color: #1d1d1f;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    /* position: relative; */
+}
+#tradein p{
+    max-width: 235px;
+    margin-top: 5px;
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 400;
+    /* letter-spacing: .009em; */
+    color: #1d1d1f;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+#tradein a{
+    border: 2px solid brown;
+    margin-left: 35px;
+    /* color: #2997ff; */
+    color: #fff;
+    border-color: #2997ff;
+    background-color: #0071e3;;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 28px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 980px;
+    text-decoration: none;
+
+}
+#tradein a+a{
+    /* border: 2px solid brown; */
+    margin-left: 13px;
+    color: #0071e3;
+    /* color: #fff; */
+    border-color: #0071e3;
+    background: rgba(0, 0, 0, 0);
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 28px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 980px;
+    text-decoration: none;
+
+}
+
+#tradein a+a:hover{
+    /* border: 2px solid salmon; */
+    background-color: #0071e3;
+    color: #f5f5f7;
+}
+
+footer{
+    /* border: 2px solid red; */
+    height: 115vh;
+    width: 100%;
+    background: rgb(245, 245, 247);
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color:(0, 0, 0, 0.56);
+    min-width: 1024px;
+    text-align: start;
+    position: relative;
+    justify-content: center;
+   
+}
+footer div{
+    /* border: 2px solid blue; */
+    max-width: 980px;
+    height: inherit;
+    float: inherit;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    margin: auto;
+}
+#footer1{
+    list-style: none;
+    padding: 17px 11px;
+    float: inherit;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    color: rgba(0, 0, 0, 0.56);
+    padding-bottom: .8em;
+    height: 980;
+    /* padding: 80px; */
+    position: relative;
+    /* margin-bottom: 10px; */
+    border-bottom: 1px solid var(--footer-section-border-color);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.56);
+
+}
+#footer1 li{
+    margin: 10px;
+    word-spacing: normal;
+}
+#footer1 a{
+    color: rgba(0, 0, 0, 0.56);
+}
+#apple-nav{
+    /* border: 2px solid blueviolet; */
+    height: 52vh;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 20px; 
+}
+#apple-nav>b{
+  color:  rgba(0, 0, 0, 0.70);
+
+}
+#apple-nav ul li{
+    /* border: 2px solid rebeccapurple; */
+    list-style: none;
+    padding: 5px;
+    cursor:pointer;
+}
+#conclusion div{
+    /* border: 2px solid red; */
+    padding: 10px;
+    display: flex;
+}
+#demo1{
+    /* border: 2px solid rgb(0, 255, 149); */
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid ;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.56);
+    color: rgba(0, 0, 0, 0.56);
+}
+#demo2{
+    position: absolute;
+     color: rgba(0, 0, 0, 0.56);
+}
+#demo3{
+    /* border: 2px solid ; */
+    position: absolute;
+    left: 35%;
+    top: 99%;
+    /* bottom: 1px; */
+    color: rgba(0, 0, 0, 0.72);
+    /* word-spacing: 10px; */
+    
+}
+#demo3 ul{
+    display: flex;
+}
+#demo3 ul>li{
+    /* border: 2px solid; */
+    list-style: none;
+    padding: 5px; cursor: pointer;
+}
+#india{
+    color: rgba(0, 0, 0, 0.72);
+    position: absolute;
+    left: 80%;
+    cursor: pointer;
+}
+
+/* apple TV */
+#apple-tv{
+    height: 75vh;
+}
+#apple-tv ul li{
+    list-style:circle;
+    /* border: 2px solid; */
+
+}
